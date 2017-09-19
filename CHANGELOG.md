@@ -1,5 +1,14 @@
 # Changelog
 
+## 17.0919.1 (2017-09-19)
+
+* Remove boxcutter build scripts
+* Remove EOL components (CentOS 5 provisioning and scripts)
+* Configure for VirtualBox builds only
+* Update scripts and templates
+* Update to disable kdump service, this causes vagrantup failures with VM memory changes
+* Configure Vagrant Cloud upload
+
 ## 17.0915.1 (2017-09-15)
 
 * Upgrade CentOS 7 to 7.4.1708

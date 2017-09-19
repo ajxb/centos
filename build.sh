@@ -17,20 +17,6 @@ if [[ -d output-virtualbox ]]; then
   rm -fr output-virtualbox
 fi
 
-# Remove output_virtualbox-iso if it exists,
-# prevents packer failing on box generation
-if [[ -d output-virtualbox-iso ]]; then
-  echo "output-virtualbox-iso already exists, removing"
-  rm -fr output-virtualbox-iso
-fi
-
-# Remove the .box file if it already exists,
-# prevents packer failing on box generation
-#if [[ -f box/virtualbox/${BOX}.box ]]; then
-#  echo "box/virtualbox/${BOX}.box already exists, removing"
-#  rm -f box/virtualbox/${BOX}.box
-#fi
-
 echo "Building ${BOX}"
 
 # Build the VM
