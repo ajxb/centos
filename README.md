@@ -8,8 +8,8 @@ This repository contains Packer templates for creating CentOS Vagrant boxes.
 
 64-bit boxes:
 
-* [CentOS 7.4 (64-bit)](https://app.vagrantup.com/boxcutter/boxes/centos7)
-* [CentOS 6.9 (64-bit)](https://app.vagrantup.com/boxcutter/boxes/centos6)
+* [CentOS 7 1708 (64-bit)](https://app.vagrantup.com/ajxb/boxes/centos7)
+* [CentOS 6.9 (64-bit)](https://app.vagrantup.com/ajxb/boxes/centos6)
 
 ## Building the Vagrant boxes with Packer
 
@@ -23,7 +23,7 @@ For example, to build CentOS 7, use the following:
 
     $ packer build -var-file=centos7.json centos.json
 
-## Building the Vagrant boxes with the box script
+## Building the Vagrant boxes with the build script
 
 We've also provided a wrapper script `build.sh` for ease of use, so alternatively, you can use
 the following to build CentOS 7 for all providers:
