@@ -29,11 +29,6 @@ rm -rf /dev/.udev/
 
 DISK_USAGE_BEFORE_CLEANUP=$(df -h)
 
-if [[ $CLEANUP_BUILD_TOOLS  =~ true || $CLEANUP_BUILD_TOOLS =~ 1 || $CLEANUP_BUILD_TOOLS =~ yes ]]; then
-    echo "==> Removing tools used to build virtual machine drivers"
-    yum -y remove gcc libmpc mpfr cpp kernel-devel kernel-headers
-fi
-
 echo "==> Clean up yum cache of metadata and packages to save space"
 yum -y --enablerepo='*' clean all
 
