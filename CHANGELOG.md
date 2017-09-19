@@ -1,5 +1,10 @@
 # Changelog
 
+## 17.0919.2 (2017-09-19)
+
+* Cleanup old kernels to keep file size down
+* Disable GUI on packer build
+
 ## 17.0919.1 (2017-09-19)
 
 * Remove boxcutter build scripts
