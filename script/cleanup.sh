@@ -32,6 +32,9 @@ DISK_USAGE_BEFORE_CLEANUP=$(df -h)
 echo "==> Clean up yum cache of metadata and packages to save space"
 yum -y --enablerepo='*' clean all
 
+echo "==> Removing all old kernels"
+package-cleanup -y --oldkernels --count=1
+
 echo "==> Removing temporary files used to build box"
 rm -rf /tmp/*
 
