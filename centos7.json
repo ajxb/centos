@@ -10,5 +10,6 @@
   "iso_name": "CentOS-7-x86_64-DVD-1708.iso",
   "iso_url": "http://mirrors.sonic.net/centos/7.4.1708/isos/x86_64/CentOS-7-x86_64-DVD-1708.iso",
   "memory": "512",
-  "version": "17.0919.2"
+  "version": "18.0424.1",
+  "version_description": "CentOS 7.4 (64-bit) with VirtualBox Guest Additions 5.2.10"
 }

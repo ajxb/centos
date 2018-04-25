@@ -1,5 +1,9 @@
 # Changelog
 
+## 18.0424.1 (2018-04-24)
+
+* Rebuild of CentOS 6 and 7 boxes with VirtualBox Guest Additions 5.2.10
+
 ## 17.0919.2 (2017-09-19)
 
 * Cleanup old kernels to keep file size down
