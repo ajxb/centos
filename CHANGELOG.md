@@ -1,5 +1,9 @@
 # Changelog
 
+## 18.1127.1 (2018-11-27)
+
+* Rebuild of CentOS 6 and 7 boxes with VirtualBox Guest Additions 5.2.22
+
 ## 18.0720.1 (2018-07-20)
 
 * Upgrade CentOS 6 image to version 6.10
