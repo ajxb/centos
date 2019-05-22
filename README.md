@@ -8,7 +8,7 @@ This repository contains Packer templates for creating CentOS Vagrant boxes.
 
 64-bit boxes:
 
-* [CentOS 7 1804 (64-bit)](https://app.vagrantup.com/ajxb/boxes/centos7)
+* [CentOS 7 1810 (64-bit)](https://app.vagrantup.com/ajxb/boxes/centos7)
 * [CentOS 6.10 (64-bit)](https://app.vagrantup.com/ajxb/boxes/centos6)
 
 ## Building the Vagrant boxes with Packer

@@ -1,5 +1,9 @@
 # Changelog
 
+## 19.0521.1 (2019-05-21)
+
+* Rebuild of CentOS 6 and 7 boxes with VirtualBox Guest Additions 6.0.8
+
 ## 18.1127.1 (2018-11-27)
 
 * Rebuild of CentOS 6 and 7 boxes with VirtualBox Guest Additions 5.2.22

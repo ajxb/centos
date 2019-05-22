@@ -10,6 +10,6 @@
   "iso_name": "CentOS-6.10-x86_64-bin-DVD1.iso",
   "iso_url": "https://mirrors.edge.kernel.org/centos/6.10/isos/x86_64/CentOS-6.10-x86_64-bin-DVD1.iso",
   "memory": "512",
-  "version": "18.1127.1",
-  "version_description": "CentOS 6.10 (64-bit) with VirtualBox Guest Additions 5.2.22"
+  "version": "19.0521.1",
+  "version_description": "CentOS 6.10 (64-bit) with VirtualBox Guest Additions 6.0.8"
 }
